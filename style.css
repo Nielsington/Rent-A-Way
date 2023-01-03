@@ -1,4 +1,8 @@
 /*general*/
+* {
+  list-style: none;
+}
+
 /*variable use ->background-color: var(--main-color);*/
 :root {
   --main-color: #DEE3E9;
@@ -9,5 +13,37 @@
 }
 
 /*site*/
+body {
+  color: var(--dark-color);
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: var(--header-color);
+}
+
+#logo {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  color: var(--dark-color);
+}
+
+#site {
+  display: flex;
+  flex-flow: row;
+}
+
+#navigation {
+  background-color: var();
+  color: var(--dark-color);
+}
+
+footer {
+  background-color: var(--header-color);
+  display: flex;
+  justify-content: space-around;
+}
 
 /*# sourceMappingURL=style.css.map */

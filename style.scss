@@ -1,5 +1,7 @@
 /*general*/
-* {}
+* {
+    list-style: none;
+}
 body {}
 /*variable use ->background-color: var(--main-color);*/
 :root{
@@ -10,14 +12,38 @@ body {}
 --dark-color: #544B50;
 }
 /*site*/
-header {}
-#site {}
-    #navigation{}
+body {
+    color: var(--dark-color);
+    display:flex;
+    flex-direction: column;
+}
+header {
+    background-color: var(--header-color);
+
+}
+    #logo {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        color: var(--dark-color);
+    }
+#site {
+    display:flex;
+    flex-flow: row;
+}
+    #navigation{
+        background-color: var();
+        color: var(--dark-color);
+    }
     #content {}
         #static {}
             #slogan {}
         #scroll {}
-footer {}
+footer {
+    background-color: var(--header-color);
+    display: flex;
+    justify-content: space-around;
+}
     #socials {}
     #copyright {}
     #backToTop {}
