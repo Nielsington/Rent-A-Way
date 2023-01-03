@@ -1,8 +1,9 @@
 /*general*/
 * {
     list-style: none;
+    margin: 0px;
+    padding: 0px;
 }
-body {}
 /*variable use ->background-color: var(--main-color);*/
 :root{
 --main-color: #DEE3E9;
@@ -16,38 +17,54 @@ body {
     color: var(--dark-color);
     display:flex;
     flex-direction: column;
+    justify-content:baseline ;
+    min-height: 100vh;
 }
 header {
     height: 100px;
     background-color: var(--header-color);
-
+    margin: auto 0px;
+    display: flex;
 }
-    #logo {
-        width: 150px;
-        height: 150px;
-        object-fit: cover;
+    #logo, #logo > * {
         color: var(--dark-color);
+        width: 20%;
+        text-align: center;
+        margin: auto 0px;
     }
 #site {
     display:flex;
     flex-flow: row;
-    min-height: 100vh;
+    min-height: calc(100vh - 200px);
+
 }
     #navigation{
         background-color: var(--accent-color);
         color: var(--dark-color);
+        width: 20%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        ul{
+            height: 60%;
+            display: flex;
+            flex-flow: column;
+            justify-content: space-around;
+            text-align: center;
+        }
     }
     #content {
         background-color: var(--main-color);
-        width: 100%;
+        width: 80%;
     }
         #static {
-            height: 100vh;
+            height: 80vh;
             width: 100%;
             display: flex;
             flex-flow: row;
             img {
                 width: 50%;
+                object-fit: cover;
             }
         }
             #slogan {
@@ -56,13 +73,18 @@ header {
                 margin: auto 0px;
             }
         #scroll {
-            height: 100vh;
-            margin-top: 100vh;
+            height: 20vh;
+            width: 100%;
         }
 footer {
     background-color: var(--header-color);
+    height: 100px;
+    width: 100%;
+    text-align: center;
     display: flex;
     justify-content: space-around;
+    > * {
+        margin: auto 0px;}
 }
     #socials {}
     #copyright {}
