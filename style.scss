@@ -1,20 +1,23 @@
+/*variable use ->background-color: var(--main-color);*/
+:root{
+    --main-color: #DEE3E9;
+    --header-color:#BBC3CE;
+    --accent-color: #E6E6E6;
+    --button-color: #985D5E;
+    --text-color: #544B50;
+    }
 /*general*/
 * {
     list-style: none;
     margin: 0px;
     padding: 0px;
+    color: var(--text-color);
 }
-/*variable use ->background-color: var(--main-color);*/
-:root{
---main-color: #DEE3E9;
---header-color:#BBC3CE;
---accent-color: #E6E6E6;
---button-color: #985D5E;
---dark-color: #544B50;
+a {
+    text-decoration: none;
 }
 /*site*/
 body {
-    color: var(--dark-color);
     display:flex;
     flex-direction: column;
     justify-content:baseline ;
@@ -27,7 +30,6 @@ header {
     display: flex;
 }
     #logo, #logo > * {
-        color: var(--dark-color);
         width: 20%;
         text-align: center;
         margin: auto 0px;
@@ -40,7 +42,6 @@ header {
 }
     #navigation{
         background-color: var(--accent-color);
-        color: var(--dark-color);
         width: 20%;
         display: flex;
         flex-flow: column;
