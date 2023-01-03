@@ -15,12 +15,13 @@ body {
   font-family: "";
   display: flex;
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
 }
 
 .contact-container {
   max-width: 960px;
+  height: 600px;
   margin: auto;
   width: 100%;
   display: grid;
@@ -42,6 +43,16 @@ body {
   /* font-family: 'Arsenal', serif; */
   font-weight: 800;
   margin-bottom: 1rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.mail {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
 }
 
 .contact-form {
@@ -49,19 +60,36 @@ body {
   row-gap: 1rem;
 }
 
-.contact-form input {
+.contact-form input,
+.contact-form textarea {
   width: 100%;
   border: none;
   outline: none;
   padding: 10px;
   font-size: 0.8rem;
   color: #544B50;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .contact-form textarea {
-  padding: 10px;
-  border: none;
-  font-family: ""; /* same as text in input */
-  font-size: 0.8rem;
-  color: #544B50;
+  resize: none;
+  height: 250px;
+} 
+
+.contact-form .send-button {
+  font-size: 15px;
+  cursor: pointer;
 }
+
+.contact-form .send-button:hover {
+  background-color: gold;
+  transition: 0.3s all linear;
+}
+
+.map iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media only screen and (max-width: )
