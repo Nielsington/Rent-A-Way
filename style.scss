@@ -1,0 +1,23 @@
+/*general*/
+* {}
+body {}
+/*variable use ->background-color: var(--main-color);*/
+:root{
+--main-color: #DEE3E9;
+--header-color:#BBC3CE;
+--accent-color: #CFB9AF;
+--button-color: #985D5E;
+--dark-color: #544B50;
+}
+/*site*/
+header {}
+#site {}
+    #navigation{}
+    #content {}
+        #static {}
+            #slogan {}
+        #scroll {}
+footer {}
+    #socials {}
+    #copyright {}
+    #backToTop {}
