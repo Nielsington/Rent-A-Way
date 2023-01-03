@@ -1,0 +1,21 @@
+.container{
+    
+}
+
+.product{}
+.product-row{
+    overflow: hidden;
+}
+.product-item{
+    float: left;
+    margin: 5px;
+    width: 30%;
+}
+
+.product-item img{
+    width: 100%;
+}
+
+.product-item h2{}
+
+.product-item p{}
