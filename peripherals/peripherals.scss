@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    > * {
+    > img {
         background-color: white;
         margin: 5px auto;
         padding: 5px;
@@ -11,8 +11,12 @@
         width: 150px;
         object-fit: contain;
     }
+    > img:hover {
+        width: 300px;
+        height: 300px;
+        transition: 0.5s;
+    }
 }
-
 #scroll li {
     width: 100%;
     display: flex;
