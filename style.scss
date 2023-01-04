@@ -44,21 +44,20 @@ header {
 }
     #navigation{
         background-color: var(--accent-color);
-        width: 20%;
-        display: flex;
-        flex-flow: column;
-        justify-content: center;
+        width: 15%;
+        justify-content: start;
         ul{
-            height: 60%;
+            padding-top: 10vh;
+            height: 70vh;
             display: flex;
             flex-flow: column;
-            justify-content: space-around;
+            justify-content: space-between;
             text-align: center;
         }
     }
     #content {
         background-color: var(--main-color);
-        width: 80%;
+        width: 85%;
     }
         #static {
             height: 80vh;
