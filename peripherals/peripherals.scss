@@ -4,5 +4,10 @@
     grid-template-rows: 1fr;
     > * {
         height: 150px;
+        width: 150px;
+        object-fit: contain;
     }
+}
+span {
+    line-break: strict;
 }

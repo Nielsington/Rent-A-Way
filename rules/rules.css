@@ -1,93 +1,250 @@
+<<<<<<< HEAD
 /*variable use ->background-color: var(--main-color);*/
 :root {
-    --main-color: #DEE3E9;
-    --header-color:#BBC3CE;
-    --accent-color: #E6E6E6;
-    --button-color: #985D5E;
-    --text-color: #544B50;
-  }
-  
-  /*general*/
-  * {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    color: var(--text-color);
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  /*site*/
-  body {
+  --main-color: #DEE3E9;
+  --header-color:#BBC3CE;
+  --accent-color: #E6E6E6;
+  --button-color: #985D5E;
+  --text-color: #544B50;
+  --font-logo: "Contrail One", cursive;
+  --font-text: "Mulish", sans-serif;
+  --font-headers: "Arsenal", sans-serif;
+}
+
+/*general*/
+* {
+  z-index: 2;
+  box-sizing: border-box;
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: var(--text-color);
+  font-family: var(--font-text);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-headers);
+}
+
+/*site*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  min-height: 100vh;
+}
+
+header {
+  z-index: 3;
+  position: fixed;
+  width: 100vw;
+  height: 100px;
+  background-color: var(--header-color);
+  margin: auto 0px;
+  display: flex;
+}
+
+#logo, #logo > * {
+  width: 20%;
+  text-align: center;
+  margin: auto 0px;
+  font-family: var(--font-logo);
+}
+
+#site {
+  margin-top: 100px;
+  display: flex;
+  flex-flow: row;
+  min-height: calc(100vh - 200px);
+}
+
+#navigation {
+  background-color: var(--accent-color);
+  width: 15%;
+  justify-content: start;
+  z-index: -1;
+}
+#navigation ul {
+  padding-top: 10vh;
+  height: 70vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#content {
+  background-color: var(--main-color);
+  width: 85%;
+}
+
+#static {
+  z-index: -1;
+  height: 80vh;
+  width: 85%;
+  position: fixed;
+  display: flex;
+  flex-flow: row;
+}
+#static img {
+  width: 50%;
+  position: relative;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#slogan {
+  width: 50%;
+  position: relative;
+  text-align: center;
+  margin: auto 0px;
+}
+
+#scroll {
+  background-color: var(--main-color);
+  padding: 5%;
+  min-height: 20vh;
+  width: 100%;
+}
+
+#static ~ #scroll {
+  margin-top: 80vh;
+}
+
+footer {
+  background-color: var(--header-color);
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+footer > * {
+  margin: auto 0px;
+  padding: 5px;
+  text-shadow: 2px 2px 2px white;
+  background-blend-mode: darken;
+}
+
+/*variable use ->background-color: var(--main-color);*/
+:root {
+  --main-color: #DEE3E9;
+  --header-color:#BBC3CE;
+  --accent-color: #E6E6E6;
+  --button-color: #985D5E;
+  --text-color: #544B50;
+}
+
+/*general*/
+* {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  color: var(--text-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+/*site*/
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  min-height: 100vh;
+}
+
+header {
+  height: 100px;
+  background-color: var(--header-color);
+  margin: auto 0px;
+  display: flex;
+}
+
+#logo, #logo > * {
+  width: 20%;
+  text-align: center;
+  margin: auto 0px;
+}
+
+#site {
+  display: flex;
+  flex-flow: row;
+  min-height: calc(100vh - 200px);
+}
+
+#navigation {
+  background-color: var(--accent-color);
+  width: 20%;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+#navigation ul {
+  height: 60%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  text-align: center;
+}
+
+#content {
+  background-color: var(--main-color);
+  width: 80%;
+}
+
+#static {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+#static img {
+  width: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#slogan {
+  width: 50%;
+  text-align: center;
+  margin: auto 0px;
+}
+
+#scroll {
+  height: 20vh;
+  width: 100%;
+}
+
+footer {
+  background-color: var(--header-color);
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+footer > * {
+  margin: auto 0px;
+}/*# sourceMappingURL=rules.css.map */
+=======
+#scroll {
     display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    min-height: 100vh;
-  }
-  
-  header {
-    height: 100px;
-    background-color: var(--header-color);
-    margin: auto 0px;
-    display: flex;
-  }
-  
-  #logo, #logo > * {
-    width: 20%;
-    text-align: center;
-    margin: auto 0px;
-  }
-  
-  #site {
-    display: flex;
-    flex-flow: row;
-    min-height: calc(100vh - 200px);
-  }
-  
-  #navigation {
-    background-color: var(--accent-color);
-    width: 20%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-  }
-  #navigation ul {
-    height: 60%;
-    display: flex;
-    flex-flow: column;
+    margin-top: 20px;
+    flex-direction: row;
     justify-content: space-around;
-    text-align: center;
-  }
-  
-  #content {
-    background-color: var(--main-color);
-    width: 80%;
-  }
-  
-  #static {
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-  }
-  #static img {
-    width: 50%;
-    object-fit: cover;
-  }
-  
-  #slogan {
-    width: 50%;
-    text-align: center;
-    margin: auto 0px;
-  }
-  
-  #scroll {
-    height: 20vh;
-    width: 100%;
   }
 
+  .rules-text ul li {
+    list-style: disc;
+    margin-left: 28px;
+  }
+  
   .rules-box{
     max-width: 460px;
     background-color: #DEE3E9;
@@ -98,9 +255,10 @@
   
   .rules-text{
     padding: 0 20px;
-    height: 400px;
+    height: 600px;
     overflow-y: auto;
     font-size: 16px;
+    text-align: justify;
     font-weight: 500;
     color: #000000;
   }
@@ -114,12 +272,6 @@
     background-color: #CFB9AF ;
   }
 
-  #ul-list {
-    display: inline;
-    list-style-type: disc;
-    font-size: 14px;
-  }
-  
   .rules-text h2{
     text-transform: uppercase;
   }
@@ -159,32 +311,6 @@
   .btn:hover{
     opacity: .6;
   }
+
   
-  footer {
-    background-color: var(--header-color);
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-  }
-  footer > * {
-    margin: auto 0px;
-  }
-  
-  /*# sourceMappingURL=style.css.map */
-
-
-
-
-/*body{
-    margin: 0;
-    padding: 0;
-    background-color: #DEE3E9;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }*/
-  
- 
+>>>>>>> a6b65739b1cb61ecbfecc34012cff04ef7117ee2

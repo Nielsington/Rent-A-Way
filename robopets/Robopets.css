@@ -1,29 +1,49 @@
 .img {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
-#images {
+#products {
   display: flex;
   margin-top: 20px;
-  justify-content: space-around;
+  flex-direction: row;
 }
 
-#description {
+#products > * {
+  width: 25%;
+}
+
+#products img {
+  padding-right: 10px;
+}
+
+#products h2 {
+  padding: 10px;
+}
+
+#products p {
+  text-align: justify;
+  padding: 10px;
+}
+
+button {
   display: flex;
-  justify-content: left;
+  flex-direction: column;
+  justify-content: center;
 }
 
-h2 {
-  margin-left: 20px;
-  margin-right: 120px;
-}
-
-#pig {
-  margin-left: 30px;
-}
-
-#cub {
-  margin-left: 30px;
-  margin-right: 100px;
+.btn {
+  height: 50px;
+  width: calc(50% - 6px);
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #CFB9AF;
+  transition: 0.3s linear;
+  cursor: pointer;
+  background-color: #985D5E;
+  margin: 0px auto;
 }/*# sourceMappingURL=Robopets.css.map */
