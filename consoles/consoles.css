@@ -18,9 +18,22 @@ h1 {
 #big-intro-text{
     width: 77%;
     font-family: Mulish;
-    margin-left: 1vw;
 }
 
 #brand-list{
     display:flex;
+    width: 90%;
+    margin-top: 1.5em;
+}
+
+.brand {
+    width: 40%;
+    height: 7vh;
+    text-align:center;
+}
+
+.brand img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10%;
 }
