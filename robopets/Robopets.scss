@@ -2,3 +2,24 @@
     width:250px;
     height:250px;
 }
+
+#images{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+#description{
+    display: flex;
+    justify-content: left;
+}
+h2{
+    margin-left: 20px;
+    margin-right: 120px;
+}
+#pig{
+    margin-left: 30px;
+}
+#cub{
+    margin-left: 30px;
+    margin-right: 100px;
+}

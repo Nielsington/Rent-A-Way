@@ -1,0 +1,26 @@
+#scroll{
+    border: 2px solid red;
+
+}
+
+h1 {
+    font-family: arsenal;
+    text-align: center;
+}
+
+#intro-text{
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    font-family: Mulish;
+}
+
+#big-intro-text{
+    width: 77%;
+    font-family: Mulish;
+    margin-left: 1vw;
+}
+
+#brand-list{
+    display:flex;
+}
