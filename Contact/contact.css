@@ -2,11 +2,11 @@
   --text-color: #544B50;;
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 /* body {
   width: 100vw;
@@ -26,11 +26,12 @@
 
 .contact-container {
   /* max-width: 960px; */
-  height: 600px;
-  /* margin: auto; */
+  height: 100vh;
+  margin: auto;
   width: 50%;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  justify-items: center;
+  grid-template-columns: 1fr;
   gap: 1.5rem;
   /* background-color: #BBC3CE; */
   color: var(--text-color);
@@ -38,27 +39,8 @@
   overflow-y: scroll;
 }
 
-.maps-container {
-  max-width: 960px;
-  height: 600px;
-  /* margin: auto; */
-  width: 50%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 1.5rem;
-}
-
-.find-us h2 {
-  font-size: 25px;
-  /* font-family: 'Arsenal', serif; */
-  font-weight: 800;
-  margin-bottom: 1.4rem;
-  color: var(--text-color);
-  text-align: center;
-}
-
-.contact-us-container form {
-  height: 500px;
+.contact-us {
+  width: 300px;
 }
 
 .contact-us h2 {
@@ -78,6 +60,38 @@
   width: 50px;
   margin-top: -20px;
 }
+
+.maps-container {
+  max-width: 960px;
+  height: 600px;
+  /* margin: auto; */
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
+
+.find-us h2 {
+  /* font-size: 25px;
+  /* font-family: 'Arsenal', serif; */
+  font-weight: 800;
+  margin-bottom: 1.4rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+.location {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+  margin-top: -20px;
+}
+
+/* .contact-container form {
+  height: 500px;
+} */
 
 .contact-form {
   display: grid;
@@ -113,15 +127,12 @@
 }
 
 .call-us {
-  height: 500px;
-  width: 500px;
+  height: 120px;
+  width: 100%;
   background-color: white;
   text-align: center;
   margin-top: 20px;
-}
-
-.call-us h3 {
-  margin-top: 20px;
+  border-radius: 10px;
 }
 
 .phone {
@@ -134,8 +145,15 @@
   margin-bottom: 10px;
 }
 
-.phone-number {
-}
+/* .location{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+} */
 
 .map iframe {
   width: 200%;

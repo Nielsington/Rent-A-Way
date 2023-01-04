@@ -1,6 +1,8 @@
 .img{
-    width:250px;
-    height:250px;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    // padding: 10px;
 }
 
 
@@ -8,15 +10,29 @@
     display: flex;
     margin-top: 20px;
     flex-direction: row;
-    justify-content: space-around;
+
 }
+
+
 #products > *{
     width: 25%;
+}
+
+#products img{
+    padding-right: 10px;
+}
+#products h2{
+    padding:10px;
+}
+#products p{
+    text-align: justify;
+    padding: 10px;
 }
 button{
     display:flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: center;
+    
 }
 .btn{
     height: 50px;
@@ -29,6 +45,7 @@ button{
     transition: .3s  linear;
     cursor: pointer;
     background-color: #985D5E;
+    margin:0px auto
 }
 
 
