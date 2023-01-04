@@ -64,6 +64,32 @@ img{
     margin: auto;
 }
 
+.p-spacing {
+    margin-top: 3em;
+}
 
+/* Rent buttons */
+.btn {
+    height: 50px;
+    width: 20%;
+    border: 0;
+    border-radius: 6px;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: #CFB9AF;
+    cursor: pointer;
+    transition: 0.3s linear;
+    background-color: #985D5E;
+  }
+
+  .btn:hover{
+    opacity: .6;
+  }
+
+.button-positioning{
+    display: flex;
+    justify-content: center;
+    margin: 2em;
+}
 
 
