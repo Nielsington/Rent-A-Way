@@ -3,11 +3,12 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     > * {
+        background-color: white;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 5px;
         height: 150px;
         width: 150px;
         object-fit: contain;
     }
-}
-span {
-    line-break: strict;
 }
