@@ -1,29 +1,33 @@
-#scroll{
-    border: 2px solid red;
-
-}
-
-h1 {
+/* Intro */
+h1, h2{
     font-family: arsenal;
     text-align: center;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+}
+
+p {
+    font-family: Mulish;
 }
 
 #intro-text{
     width: 75%;
     text-align: center;
     margin: auto;
-    font-family: Mulish;
 }
 
 #big-intro-text{
     width: 77%;
-    font-family: Mulish;
 }
 
+/* Brand Navigation */
 #brand-list{
     display:flex;
     width: 90%;
-    margin-top: 1.5em;
+    margin-top: 2.5em;
+    margin-bottom: 5em;
 }
 
 .brand {
@@ -32,8 +36,34 @@ h1 {
     text-align:center;
 }
 
-.brand img{
+img{
     max-width: 100%;
     max-height: 100%;
-    border-radius: 10%;
 }
+
+/* Product container */
+
+.wrap-single-product{
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.product-container {
+    width: 100%;
+    margin-top: 1em;
+    text-align: center;
+    width: 20%;
+}
+
+.product-container img{
+    padding-top: 1em;
+}
+
+.product-description {
+    width: 65%;
+    margin: auto;
+}
+
+
+
+
