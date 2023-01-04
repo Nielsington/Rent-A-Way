@@ -163,11 +163,11 @@
 
 .map iframe {
   width: 200%;
-  height: 100%;
+  height: 96%;
   border-radius: 2rem;
   display: fixed;
   margin-left: 20%;
-  margin-top: 33%;
+  margin-top: 83px;
 }
 
 /* @media only screen and (max-width: ) */
