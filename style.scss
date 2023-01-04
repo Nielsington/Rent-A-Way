@@ -8,6 +8,7 @@
     }
 /*general*/
 * {
+    box-sizing: border-box;
     list-style: none;
     margin: 0px;
     padding: 0px;
@@ -74,6 +75,7 @@ header {
                 margin: auto 0px;
             }
         #scroll {
+            padding: 5%;
             min-height: 20vh;
             width: 100%;
         }
