@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*variable use ->background-color: var(--main-color);*/
 :root {
   --main-color: #DEE3E9;
@@ -231,3 +232,85 @@ footer {
 footer > * {
   margin: auto 0px;
 }/*# sourceMappingURL=rules.css.map */
+=======
+#scroll {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .rules-text ul li {
+    list-style: disc;
+    margin-left: 28px;
+  }
+  
+  .rules-box{
+    max-width: 460px;
+    background-color: #DEE3E9;
+    color:#985D5E;
+    font-family: "Montserrat";
+    padding: 60px 30px;
+  }
+  
+  .rules-text{
+    padding: 0 20px;
+    height: 600px;
+    overflow-y: auto;
+    font-size: 16px;
+    text-align: justify;
+    font-weight: 500;
+    color: #000000;
+  }
+  
+  .rules-text::-webkit-scrollbar{
+    width: 2px;
+    background-color: #985D5E ;
+  }
+  
+  .rules-text::-webkit-scrollbar-thumb{
+    background-color: #CFB9AF ;
+  }
+
+  .rules-text h2{
+    text-transform: uppercase;
+  }
+  
+  .rules-box h4{
+    font-size: 13px;
+    text-align: center;
+    padding: 0 40px;
+  }
+  
+  .rules-box h4 span{
+    color: #CFB9AF;
+  }
+  
+  .buttons{
+    display: flex;
+    padding: 0 19px;
+    justify-content: space-between;
+  }
+  
+  .btn{
+    height: 50px;
+    width: calc(50% - 6px);
+    border: 0;
+    border-radius: 6px;
+    font-size: 19px;
+    font-weight: 500;
+    color:#CFB9AF;
+    transition: .3s  linear;
+    cursor: pointer;
+  }
+  
+  .rosetaupe-btn{
+    background-color: #985D5E;
+  }
+  
+  .btn:hover{
+    opacity: .6;
+  }
+
+  
+>>>>>>> a6b65739b1cb61ecbfecc34012cff04ef7117ee2

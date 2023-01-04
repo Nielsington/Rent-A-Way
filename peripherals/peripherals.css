@@ -5,4 +5,12 @@
 }
 .pictureBox > * {
   height: 150px;
-}/*# sourceMappingURL=peripherals.css.map */
+  width: 150px;
+  object-fit: contain;
+}
+
+span {
+  line-break: strict;
+}
+
+/*# sourceMappingURL=peripherals.css.map */
