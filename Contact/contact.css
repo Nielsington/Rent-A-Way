@@ -21,7 +21,7 @@
 
 #scroll {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; /*in responsiveness: flex-direction: column */
 }
 
 .contact-container {
@@ -170,4 +170,4 @@
   margin-top: 83px;
 }
 
-/* @media only screen and (max-width: ) */
+/* @media only screen and (max-width:  ) */
