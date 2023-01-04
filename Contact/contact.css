@@ -34,9 +34,7 @@
   gap: 1.5rem;
   /* background-color: #BBC3CE; */
   color: var(--text-color);
-  /* box-shadow: 0 0 1rem hsla(0 0 0 /16%); */
   border-radius: 0.5rem;
-  /* overflow: hidden; */
   overflow-y: scroll;
   /* justify-content: left; */
 }
@@ -59,7 +57,7 @@
   height: 500px;
 }
 
-.contact-us h3 {
+.contact-us h2 {
   font-size: 25px;
   /* font-family: 'Arsenal', serif; */
   font-weight: 800;
@@ -115,6 +113,10 @@
   width: 500px;
   background-color: white;
   text-align: center;
+  margin-top: 20px;
+}
+
+.call-us h3 {
   margin-top: 20px;
 }
 
