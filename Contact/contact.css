@@ -21,7 +21,7 @@
 
 #scroll {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .contact-container {
@@ -36,7 +36,6 @@
   color: var(--text-color);
   border-radius: 0.5rem;
   overflow-y: scroll;
-  /* justify-content: left; */
 }
 
 .maps-container {
@@ -49,8 +48,13 @@
   gap: 1.5rem;
 }
 
-.contact-us-container {
-  padding: 20px;
+.find-us h2 {
+  font-size: 25px;
+  /* font-family: 'Arsenal', serif; */
+  font-weight: 800;
+  margin-bottom: 1.4rem;
+  color: var(--text-color);
+  text-align: center;
 }
 
 .contact-us-container form {
@@ -134,10 +138,11 @@
 }
 
 .map iframe {
-  width: 100%;
-  height: 50%;
+  width: 200%;
+  height: 100%;
   border-radius: 2rem;
   display: fixed;
+  margin-left: 20%;
 }
 
 /* @media only screen and (max-width: ) */
