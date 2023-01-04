@@ -1,4 +1,4 @@
-/* Intro */
+
 h1, h2{
     font-family: arsenal;
     text-align: center;
@@ -17,22 +17,30 @@ img{
     max-height: 100%;
 }
 
+#page-title{
+    margin-bottom: 1em;
+}
+
+/* Intro */
 #intro-text{
     width: 75%;
     text-align: center;
     margin: auto;
 }
 
-#big-intro-text{
-    width: 77%;
-}
 
 /* Brand list */
 #brand-list{
     display:flex;
     width: 90%;
+    margin: auto;
     margin-top: 2.5em;
     margin-bottom: 5em;
+    border-top: 1px solid rgb(187, 187, 187);
+    border-bottom: 1px solid rgb(187, 187, 187);
+    padding-top: 4em;
+    padding-bottom: 4em;
+
 }
 
 .brand {
