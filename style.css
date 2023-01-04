@@ -89,8 +89,13 @@ header {
 }
 #static img {
   width: 50%;
+<<<<<<< HEAD
   position: relative;
   object-fit: cover;
+=======
+  -o-object-fit: cover;
+     object-fit: cover;
+>>>>>>> 876f687 (added the general structure to my content on my page)
 }
 
 #slogan {
@@ -121,6 +126,4 @@ footer {
 }
 footer > * {
   margin: auto 0px;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
