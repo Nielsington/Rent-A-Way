@@ -23,10 +23,18 @@
 }
 #products h2{
     padding:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
 }
 #products p{
     text-align: justify;
     padding: 10px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 button{
     display:flex;
@@ -46,7 +54,11 @@ button{
     cursor: pointer;
     background-color: #985D5E;
     margin:0px auto
+    
 }
+.btn:hover{
+    opacity: .6;
+  }
 
 
 
