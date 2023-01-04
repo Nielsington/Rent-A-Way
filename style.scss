@@ -32,6 +32,8 @@ body {
     min-height: 100vh;
 }
 header {
+    position: fixed;
+    width: 100vw;
     height: 100px;
     background-color: var(--header-color);
     margin: auto 0px;
@@ -44,6 +46,7 @@ header {
         font-family:  var(--font-logo);
     }
 #site {
+    margin-top: 100px;
     display:flex;
     flex-flow: row;
     min-height: calc(100vh - 200px);
@@ -64,27 +67,36 @@ header {
     }
     #content {
         background-color: var(--main-color);
+        z-index: -2;
         width: 85%;
     }
         #static {
+            z-index: -1;
             height: 80vh;
             width: 100%;
+            position: fixed;
             display: flex;
             flex-flow: row;
             img {
                 width: 50%;
+                position: relative;
                 object-fit: cover;
             }
         }
             #slogan {
                 width: 50%;
+                position: relative;
                 text-align: center;
                 margin: auto 0px;
             }
         #scroll {
+            background-color: var(--main-color);
             padding: 5%;
             min-height: 20vh;
             width: 100%;
+        }
+        #static ~ #scroll {
+            margin-top: 80vh;
         }
 footer {
     background-color: var(--header-color);
