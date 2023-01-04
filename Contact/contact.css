@@ -19,11 +19,16 @@
   justify-content: center;
 } */
 
+#scroll {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-container {
-  max-width: 960px;
+  /* max-width: 960px; */
   height: 600px;
-  margin: auto;
-  width: 100%;
+  /* margin: auto; */
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 1.5rem;
@@ -33,6 +38,17 @@
   border-radius: 0.5rem;
   /* overflow: hidden; */
   overflow-y: scroll;
+  /* justify-content: left; */
+}
+
+.maps-container {
+  max-width: 960px;
+  height: 600px;
+  /* margin: auto; */
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
 }
 
 .contact-us-container {
