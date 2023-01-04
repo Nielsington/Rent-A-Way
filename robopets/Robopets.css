@@ -3,27 +3,32 @@
   height: 250px;
 }
 
-#images {
+#products {
   display: flex;
   margin-top: 20px;
+  flex-direction: row;
   justify-content: space-around;
 }
 
-#description {
+#products > * {
+  width: 25%;
+}
+
+button {
   display: flex;
-  justify-content: left;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 
-h2 {
-  margin-left: 20px;
-  margin-right: 120px;
-}
-
-#pig {
-  margin-left: 30px;
-}
-
-#cub {
-  margin-left: 30px;
-  margin-right: 100px;
+.btn {
+  height: 50px;
+  width: calc(50% - 6px);
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color: #CFB9AF;
+  transition: 0.3s linear;
+  cursor: pointer;
+  background-color: #985D5E;
 }/*# sourceMappingURL=Robopets.css.map */
