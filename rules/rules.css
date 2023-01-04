@@ -1,70 +1,8 @@
-/*variable use ->background-color: var(--main-color);*/
-:root {
-<<<<<<< HEAD
-    --main-color: #DEE3E9;
-    --header-color:#BBC3CE;
-    --accent-color: #E6E6E6;
-    --button-color: #985D5E;
-    --text-color: #544B50;
-  }
-  
-  /*general*/
-  * {
-    list-style: none;
-    margin: 0px;
-    padding: 0px;
-    color: var(--text-color);
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  /*site*/
-  body {
+#scroll {
     display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    min-height: 100vh;
-  }
-  
-  header {
-    height: 100px;
-    background-color: var(--header-color);
-    margin: auto 0px;
-    display: flex;
-  }
-  
-  #logo, #logo > * {
-    width: 20%;
-    text-align: center;
-    margin: auto 0px;
-  }
-  
-  #site {
-    display: flex;
-    flex-flow: row;
-    min-height: calc(100vh - 200px);
-  }
-  
-  #navigation {
-    background-color: var(--accent-color);
-    width: 20%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-  }
-  #navigation ul {
-    height: 60%;
-    display: flex;
-    flex-flow: column;
+    margin-top: 20px;
+    flex-direction: row;
     justify-content: space-around;
-    text-align: center;
-  }
-  
-  #content {
-    background-color: var(--main-color);
-    width: 80%;
   }
 
   .rules-text ul li {
@@ -72,37 +10,6 @@
     margin-left: 28px;
   }
   
-  #static {
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    flex-flow: row;
-  }
-  #static img {
-    width: 50%;
-    object-fit: cover;
-  }
-  
-  #slogan {
-    width: 50%;
-    text-align: center;
-    margin: auto 0px;
-  }
-  
-  #scroll {
-    height: 20vh;
-    width: 100%;
-  }
-=======
-  --main-color: #DEE3E9;
-  --header-color:#BBC3CE;
-  --accent-color: #E6E6E6;
-  --button-color: #985D5E;
-  --text-color: #544B50;
-}
->>>>>>> 2a4fadac92cf8a31af7e8e4dfd9f2078a4cb0ea1
-
-<<<<<<< HEAD
   .rules-box{
     max-width: 460px;
     background-color: #DEE3E9;
@@ -113,7 +20,7 @@
   
   .rules-text{
     padding: 0 20px;
-    height: 400px;
+    height: 600px;
     overflow-y: auto;
     font-size: 16px;
     text-align: justify;
@@ -170,116 +77,4 @@
     opacity: .6;
   }
 
-  .FAQ {
-font-size: 19px;
-font-weight: 500;
-  }
   
-  footer {
-    background-color: var(--header-color);
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    display: flex;
-    justify-content: space-around;
-  }
-  footer > * {
-    margin: auto 0px;
-  }
-  
-  /*# sourceMappingURL=style.css.map */
-=======
-/*general*/
-* {
-  list-style: none;
-  margin: 0px;
-  padding: 0px;
-  color: var(--text-color);
-}
->>>>>>> 876f687 (added the general structure to my content on my page)
-
-a {
-  text-decoration: none;
-}
-
-/*site*/
-body {
-  display: flex;
-  flex-direction: column;
-  justify-content: baseline;
-  min-height: 100vh;
-}
-
-header {
-  height: 100px;
-  background-color: var(--header-color);
-  margin: auto 0px;
-  display: flex;
-}
-
-#logo, #logo > * {
-  width: 20%;
-  text-align: center;
-  margin: auto 0px;
-}
-
-#site {
-  display: flex;
-  flex-flow: row;
-  min-height: calc(100vh - 200px);
-}
-
-#navigation {
-  background-color: var(--accent-color);
-  width: 20%;
-  display: flex;
-  flex-flow: column;
-  justify-content: center;
-}
-#navigation ul {
-  height: 60%;
-  display: flex;
-  flex-flow: column;
-  justify-content: space-around;
-  text-align: center;
-}
-
-#content {
-  background-color: var(--main-color);
-  width: 80%;
-}
-
-#static {
-  height: 80vh;
-  width: 100%;
-  display: flex;
-  flex-flow: row;
-}
-#static img {
-  width: 50%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-#slogan {
-  width: 50%;
-  text-align: center;
-  margin: auto 0px;
-}
-
-#scroll {
-  height: 20vh;
-  width: 100%;
-}
-
-footer {
-  background-color: var(--header-color);
-  height: 100px;
-  width: 100%;
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
-}
-footer > * {
-  margin: auto 0px;
-}/*# sourceMappingURL=rules.css.map */
