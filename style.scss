@@ -5,6 +5,9 @@
     --accent-color: #E6E6E6;
     --button-color: #985D5E;
     --text-color: #544B50;
+    --font-logo: 'Contrail One', cursive;
+    --font-text: 'Mulish', sans-serif;
+    --font-headers: 'Arsenal', sans-serif;
     }
 /*general*/
 * {
@@ -13,11 +16,14 @@
     margin: 0px;
     padding: 0px;
     color: var(--text-color);
+    font-family: var(--font-text);
 }
 a {
     text-decoration: none;
 }
-
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-headers);
+}
 /*site*/
 body {
     display:flex;
@@ -35,6 +41,7 @@ header {
         width: 20%;
         text-align: center;
         margin: auto 0px;
+        font-family:  var(--font-logo);
     }
 #site {
     display:flex;
