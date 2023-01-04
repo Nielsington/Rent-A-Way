@@ -1,6 +1,6 @@
 #scroll {
     display: flex;
-    margin-top: 20px;
+    margin-top: 10px;
     flex-direction: row;
     justify-content: space-around;
   }
@@ -20,7 +20,7 @@
   
   .rules-text{
     padding: 0 20px;
-    height: 600px;
+    height: 460px;
     overflow-y: auto;
     font-size: 16px;
     text-align: justify;
@@ -44,7 +44,7 @@
   .rules-box h4{
     font-size: 13px;
     text-align: center;
-    padding: 0 40px;
+    padding: 0 20px;
   }
   
   .rules-box h4 span{
