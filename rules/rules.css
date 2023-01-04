@@ -5,6 +5,8 @@
     justify-content: space-around;
   }
 
+     /* Terms of use box */
+
   .rules-text ul li {
     list-style: disc;
     margin-left: 28px;
@@ -51,6 +53,8 @@
     color: #CFB9AF;
   }
   
+     /* The button of the terms of use */
+
   .buttons{
     display: flex;
     padding: 0 19px;
@@ -77,27 +81,57 @@
     opacity: .6;
   }
 
+      /* The carousel of FAQ */
 
-
-
+      .FAQ{
+        text-align: center;
+        padding: 60px 30px;
+        margin: 0 20px;
+      }
+  
   .carousel {
-    display: flex;
-    overflow: hidden;
+    position: relative;
   }
   
-  .carousel-item {
-    flex: 0 0 100%;
-    transform: translateX(100%);
-    transition: transform 5s;
+  .carousel__item {
+    height: 300px;
+    background: #BBC3CE ;
+    padding: 1em;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    display: none;
   }
   
-  .carousel:hover .carousel-item {
-    transform: translateX(0%);
+.carousel__item p {
+  font-size: 20px;
+}
+  .carousel__item--selected {
+    display: block;
   }
   
-  .carousel:hover .carousel-item:first-child {
-    transform: translateX(-40%);
+  .carousel__nav {
+    width: 100%;
+    padding: 20px 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
   }
   
-
+  .carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: rgba(255, 255, 255, 0.5);
+  }
   
