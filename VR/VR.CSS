@@ -218,6 +218,7 @@ footer > * {
 */
 .product-row {
   overflow: hidden;
+  margin: 10px;
 }
 
 .product-item {
@@ -234,8 +235,14 @@ footer {
   clear: both;
 }
 
-/*
-.product-item h2{}
+.product-item h2 {
+  margin-top: 10px;
+}
 
-.product-item p{}
-*//*# sourceMappingURL=VR.css.map */
+.product-item p {
+  padding-top: 5px;
+}
+
+h1 {
+  margin-top: 5px;
+}/*# sourceMappingURL=VR.css.map */
