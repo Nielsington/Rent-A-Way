@@ -65,6 +65,11 @@
     background-color: var(--main-color);
     width: 80%;
   }
+
+  .rules-text ul li {
+    list-style: disc;
+    margin-left: 28px;
+  }
   
   #static {
     height: 80vh;
@@ -101,6 +106,7 @@
     height: 400px;
     overflow-y: auto;
     font-size: 16px;
+    text-align: justify;
     font-weight: 500;
     color: #000000;
   }
@@ -114,12 +120,6 @@
     background-color: #CFB9AF ;
   }
 
-  #ul-list {
-    display: inline;
-    list-style-type: disc;
-    font-size: 14px;
-  }
-  
   .rules-text h2{
     text-transform: uppercase;
   }
@@ -158,6 +158,11 @@
   
   .btn:hover{
     opacity: .6;
+  }
+
+  .FAQ {
+font-size: 19px;
+font-weight: 500;
   }
   
   footer {
