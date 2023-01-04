@@ -23,6 +23,7 @@
 
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -92,8 +93,7 @@ header {
 #static img {
   width: 50%;
   position: relative;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 #slogan {
@@ -127,4 +127,6 @@ footer > * {
   padding: 5px;
   text-shadow: 2px 2px 2px white;
   background-blend-mode: darken;
-}/*# sourceMappingURL=style.css.map */
+}
+
+/*# sourceMappingURL=style.css.map */

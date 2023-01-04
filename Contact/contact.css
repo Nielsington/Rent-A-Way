@@ -36,11 +36,11 @@
   /* background-color: #BBC3CE; */
   color: var(--text-color);
   border-radius: 0.5rem;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
 }
 
 .contact-us {
-  width: 300px;
+  width: 500px;
 }
 
 .contact-us h2 {
@@ -61,38 +61,6 @@
   margin-top: -20px;
 }
 
-.maps-container {
-  max-width: 960px;
-  height: 600px;
-  /* margin: auto; */
-  width: 50%;
-  display: grid;
-  grid-template-columns: repeat(2,1fr);
-  gap: 1.5rem;
-}
-
-.find-us h2 {
-  /* font-size: 25px;
-  /* font-family: 'Arsenal', serif; */
-  font-weight: 800;
-  margin-bottom: 1.4rem;
-  color: var(--text-color);
-  text-align: center;
-}
-
-.location {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  height: 50px;
-  width: 50px;
-  margin-top: -20px;
-}
-
-/* .contact-container form {
-  height: 500px;
-} */
-
 .contact-form {
   display: grid;
   row-gap: 1rem;
@@ -108,7 +76,7 @@
   font-size: 0.8rem;
   color: #544B50;
   border-radius: 10px;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
 }
 
 .contact-form textarea {
@@ -117,18 +85,21 @@
 } 
 
 .contact-form .send-button {
-  font-size: 15px;
+  font-size: 18px;
   cursor: pointer;
+  color: #CFB9AF;
+  background-color: #985D5E;
 }
 
 .contact-form .send-button:hover {
   background-color: #985D5E;
+  opacity: .6;
   transition: 0.3s all linear;
 }
 
 .call-us {
-  height: 120px;
-  width: 100%;
+  height: 140px;
+  width: 50%;
   background-color: white;
   text-align: center;
   margin-top: 20px;
@@ -145,7 +116,42 @@
   margin-bottom: 10px;
 }
 
-/* .location{
+.maps-container {
+  max-width: 960px;
+  height: 600px;
+  /* margin: auto; */
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
+
+.call-findus-wrapper{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.find-us {
+  height: 140px;
+  width: 50%;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.find-us h2 {
+  /* font-size: 25px;
+  /* font-family: 'Arsenal', serif; */
+  font-weight: 800;
+  margin-bottom: 1.4rem;
+  color: var(--text-color);
+  text-align: center;
+}
+
+  .location {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -153,14 +159,15 @@
   width: 50px;
   margin-top: -20px;
   margin-bottom: 10px;
-} */
+  }
 
 .map iframe {
   width: 200%;
-  height: 100%;
+  height: 96%;
   border-radius: 2rem;
   display: fixed;
   margin-left: 20%;
+  margin-top: 83px;
 }
 
 /* @media only screen and (max-width: ) */
