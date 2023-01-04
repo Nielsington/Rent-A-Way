@@ -19,30 +19,45 @@
   justify-content: center;
 } */
 
+#scroll {
+  display: flex;
+  flex-direction: column;
+}
+
 .contact-container {
-  max-width: 960px;
+  /* max-width: 960px; */
   height: 600px;
-  margin: auto;
-  width: 100%;
+  /* margin: auto; */
+  width: 50%;
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 1.5rem;
   /* background-color: #BBC3CE; */
   color: var(--text-color);
-  /* box-shadow: 0 0 1rem hsla(0 0 0 /16%); */
   border-radius: 0.5rem;
-  overflow: hidden;
+  overflow-y: scroll;
+  /* justify-content: left; */
 }
 
-.form-container {
+.maps-container {
+  max-width: 960px;
+  height: 600px;
+  /* margin: auto; */
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1.5rem;
+}
+
+.contact-us-container {
   padding: 20px;
 }
 
-.form-container form {
+.contact-us-container form {
   height: 500px;
 }
 
-.form-container h3 {
+.contact-us h2 {
   font-size: 25px;
   /* font-family: 'Arsenal', serif; */
   font-weight: 800;
@@ -93,10 +108,36 @@
   transition: 0.3s all linear;
 }
 
+.call-us {
+  height: 500px;
+  width: 500px;
+  background-color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.call-us h3 {
+  margin-top: 20px;
+}
+
+.phone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.phone-number {
+}
+
 .map iframe {
   width: 100%;
-  height: 100%;
+  height: 50%;
   border-radius: 2rem;
+  display: fixed;
 }
 
 /* @media only screen and (max-width: ) */

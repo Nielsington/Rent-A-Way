@@ -11,6 +11,7 @@
     }
 /*general*/
 * {
+    z-index: 2;
     box-sizing: border-box;
     list-style: none;
     margin: 0px;
@@ -32,6 +33,9 @@ body {
     min-height: 100vh;
 }
 header {
+    z-index: 3;
+    position: fixed;
+    width: 100vw;
     height: 100px;
     background-color: var(--header-color);
     margin: auto 0px;
@@ -44,6 +48,7 @@ header {
         font-family:  var(--font-logo);
     }
 #site {
+    margin-top: 100px;
     display:flex;
     flex-flow: row;
     min-height: calc(100vh - 200px);
@@ -53,6 +58,7 @@ header {
         background-color: var(--accent-color);
         width: 15%;
         justify-content: start;
+        z-index: -1;
         ul{
             padding-top: 10vh;
             height: 70vh;
@@ -67,24 +73,32 @@ header {
         width: 85%;
     }
         #static {
+            z-index: -1;
             height: 80vh;
-            width: 100%;
+            width: 85%;
+            position: fixed;
             display: flex;
             flex-flow: row;
             img {
                 width: 50%;
+                position: relative;
                 object-fit: cover;
             }
         }
             #slogan {
                 width: 50%;
+                position: relative;
                 text-align: center;
                 margin: auto 0px;
             }
         #scroll {
+            background-color: var(--main-color);
             padding: 5%;
             min-height: 20vh;
             width: 100%;
+        }
+        #static ~ #scroll {
+            margin-top: 80vh;
         }
 footer {
     background-color: var(--header-color);
@@ -94,8 +108,10 @@ footer {
     display: flex;
     justify-content: space-around;
     > * {
-        margin: auto 0px;}
+        margin: auto 0px;
+        border-radius: 5px;
+        padding: 5px;
+        text-shadow: 2px 2px 2px white;
+        background-blend-mode:darken;
+    }
 }
-    #socials {}
-    #copyright {}
-    #backToTop {}
