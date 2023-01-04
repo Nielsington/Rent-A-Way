@@ -5,7 +5,7 @@
   --accent-color: #E6E6E6;
   --button-color: #985D5E;
   --text-color: #544B50;
-  --font-logo: "Contrail One",cursive;
+  --font-logo: "Contrail One", cursive;
   --font-text: "Mulish", sans-serif;
   --font-headers: "Arsenal", sans-serif;
 }
@@ -23,10 +23,12 @@
 
 a {
   text-decoration: none;
+  font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-headers);
+  font-weight: 200;
 }
 
 /*site*/
@@ -280,7 +282,7 @@ button {
   margin-top: 10px;
 }
 
-.rent {
+.Rent {
   height: 40px;
   width: 70px;
   border: 0;
@@ -292,6 +294,6 @@ button {
   cursor: pointer;
 }
 
-.rent:hover {
+.Rent:hover {
   opacity: 0.6;
 }/*# sourceMappingURL=VR.css.map */
