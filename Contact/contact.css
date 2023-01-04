@@ -27,7 +27,7 @@ body {
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 1.5rem;
-  background-color: #BBC3CE;
+  /* background-color: #BBC3CE; */
   color: var(--text-color);
   /* box-shadow: 0 0 1rem hsla(0 0 0 /16%); */
   border-radius: 0.5rem;
