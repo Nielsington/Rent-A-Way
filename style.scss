@@ -41,8 +41,9 @@ header {
     margin: auto 0px;
     display: flex;
 }
-    #logo, #logo > * {
-        width: 20%;
+    .logo, .logo > * {
+        
+        min-width: 15%;
         text-align: center;
         margin: auto 0px;
         font-family:  var(--font-logo);
