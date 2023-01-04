@@ -113,11 +113,23 @@
 .call-us {
   height: 500px;
   width: 500px;
-  background-color: pink;
+  background-color: white;
   text-align: center;
-  margin-top: 25px;
+  margin-top: 20px;
 }
-  
+
+.phone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 50px;
+  width: 50px;
+  margin-top: -20px;
+  margin-bottom: 10px;
+}
+
+.phone-number {
+}
 
 .map iframe {
   width: 100%;
