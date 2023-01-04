@@ -90,8 +90,8 @@
 
   .rules-box{
     max-width: 460px;
-    background-color: #111;
-    color: #fff;
+    background-color: #DEE3E9;
+    color:#985D5E;
     font-family: "Montserrat";
     padding: 60px 30px;
   }
@@ -100,18 +100,24 @@
     padding: 0 20px;
     height: 400px;
     overflow-y: auto;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
     color: #000000;
   }
   
   .rules-text::-webkit-scrollbar{
     width: 2px;
-    background-color: #282828;
+    background-color: #985D5E ;
   }
   
   .rules-text::-webkit-scrollbar-thumb{
-    background-color: #CFB9AF;
+    background-color: #CFB9AF ;
+  }
+
+  #ul-list {
+    display: inline;
+    list-style-type: disc;
+    font-size: 14px;
   }
   
   .rules-text h2{
@@ -141,7 +147,7 @@
     border-radius: 6px;
     font-size: 19px;
     font-weight: 500;
-    color: #fff;
+    color:#CFB9AF;
     transition: .3s  linear;
     cursor: pointer;
   }
