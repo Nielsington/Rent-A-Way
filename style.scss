@@ -21,6 +21,7 @@
 }
 a {
     text-decoration: none;
+    font-weight: bold;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-headers);
@@ -53,13 +54,13 @@ header {
     display:flex;
     flex-flow: row;
     min-height: calc(100vh - 200px);
-
 }
     #navigation{
         background-color: var(--accent-color);
         width: 15%;
         justify-content: start;
         z-index: -1;
+
         ul{
             padding-top: 10vh;
             height: 70vh;
