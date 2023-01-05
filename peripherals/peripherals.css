@@ -24,12 +24,11 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
+  justify-content: end;
   grid-row: 2;
 }
-
-label {
-  display: none;
+.pictureBox > .productInfo > * {
+  margin-top: 5%;
 }
 
 #scroll li {
@@ -47,6 +46,10 @@ label {
   padding: 2vh 0px;
   margin: 2vh 0px;
   border-bottom: 1px solid var(--button-color);
+}
+
+.amount {
+  width: 20%;
 }
 
 .btn {

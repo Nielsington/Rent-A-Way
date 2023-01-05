@@ -23,13 +23,14 @@
         display: flex;
         flex-flow: column;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
         grid-row: 2;
+        > * {
+            margin-top: 5%;
+        }
     }
 }
-label {
-    display: none;
-}
+
 #scroll li {
     width: 100%;
     display: flex;
@@ -47,6 +48,10 @@ label {
     border-bottom: 1px solid var(--button-color);
 }
 
+.amount  {
+    width: 20%;
+    content: placeholder:"";
+}
 .btn {
     height: 3em;
     width: 20%;

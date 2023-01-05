@@ -160,9 +160,6 @@ header {
     content: url("./images/slideshow1.jpg");
     opacity: 1;
   }
-  6% {
-    opacity: 0;
-  }
 }
 #slideshow {
   animation: slideshow 50s linear infinite;
@@ -187,6 +184,7 @@ header {
 
 #static ~ #scroll {
   background-color: transparent;
+  width: 50%;
   padding: 0%;
   margin-top: 80vh;
   display: flex;
