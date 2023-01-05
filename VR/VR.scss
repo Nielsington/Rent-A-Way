@@ -104,7 +104,7 @@
   
   /*# sourceMappingURL=style.css.map */
   
-  @media only screen and (max-width: 479px){
+@media only screen and (max-width: 479px){
 
   .product-row{
         margin: 10px;
@@ -145,7 +145,7 @@
       
     }
     
-    .Rent{
+    .button{
     height: 40px;
     width: 70px;
     border: 0;
@@ -156,64 +156,81 @@
     transition: .3s  linear;
     cursor: pointer;}
     
-    .Rent:hover{
+    .button:hover{
       opacity: .6;
     }
-    }
+  }
 
 @media only screen and (min-width: 480px){
 
-.product-row{
-    overflow: hidden;
-    margin: 10px;
-}
-.product-item{
-    float: left;
+  html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  .product-row{
+      display: flex;
+      overflow: hidden;
+      margin: 10px;
+  }
+  .product-item{
+      flex: 1;
+      /*float: left; */
+      flex-wrap: wrap;
+      margin: 5px;
+      width: 30%;
+      max-height: 100%;
+      position: relative;
+      
+  }
+
+  .product-item img{
+      width: 100%;
+  }
+  footer{
+    clear: both;
+  }
+
+
+
+  .product-item h2{
+    margin-top: 10px;
+  }
+
+  .product-item p{
+    padding-top: 5px;
+  }
+
+  h1{margin-top: 5px;}
+
+  .price{
     margin: 5px;
-    width: 30%;
-}
+  }
 
-.product-item img{
-    width: 100%;
-}
-footer{
-  clear: both;
-}
+  button{
+    background-color: #985D5E;
+    margin-top: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0; 
+  }
 
+  .button{
+  height: 40px;
+  width: 70px;
+  border: 0;
+  border-radius: 6px;
+  font-size: 19px;
+  font-weight: 500;
+  color:#CFB9AF;
+  transition: .3s  linear;
+  cursor: pointer;}
 
+  .button:hover{
+    opacity: .6;
+  }
 
-.product-item h2{
-  margin-top: 10px;
-}
-
-.product-item p{
-  padding-top: 5px;
-}
-
-h1{margin-top: 5px;}
-
-.price{
-  margin: 5px;
-}
-
-button{
-  background-color: #985D5E;
-  margin-top: 10px;
-  
-}
-
-.Rent{
-height: 40px;
-width: 70px;
-border: 0;
-border-radius: 6px;
-font-size: 19px;
-font-weight: 500;
-color:#CFB9AF;
-transition: .3s  linear;
-cursor: pointer;}
-
-.Rent:hover{
-  opacity: .6;
-}
 }
