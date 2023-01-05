@@ -46,12 +46,15 @@ header {
   background-color: var(--header-color);
   margin: auto 0px;
   display: flex;
+  justify-content: space-between;
 }
 
 .logo, .logo > * {
   min-width: 15%;
   text-align: center;
   margin: auto 0px;
+  text-shadow: 2px 2px 2px var(--accent-color);
+  color: var(--button-color);
   font-family: var(--font-logo);
 }
 
@@ -84,7 +87,7 @@ header {
 
 #static {
   z-index: -1;
-  height: 80vh;
+  height: 100vh;
   width: 85%;
   position: fixed;
   display: flex;
@@ -97,11 +100,144 @@ header {
      object-fit: cover;
 }
 
+@-webkit-keyframes slideshow {
+  0% {
+    content: url("./images/slideshow1.jpg");
+    opacity: 1;
+  }
+  6% {
+    opacity: 0;
+  }
+  12% {
+    content: url("./images/slideshow2.jpg");
+    opacity: 1;
+  }
+  18% {
+    opacity: 0;
+  }
+  25% {
+    content: url("./images/slideshow3.webp");
+    opacity: 1;
+  }
+  31% {
+    opacity: 0;
+  }
+  37% {
+    content: url("./images/slideshow4.webp");
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+  }
+  50% {
+    content: url("./images/slideshow5.webp");
+    opacity: 1;
+  }
+  56% {
+    opacity: 0;
+  }
+  62% {
+    content: url("./images/slideshow6.webp");
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
+  75% {
+    content: url("./images/slideshow7.jpg");
+    opacity: 1;
+  }
+  81% {
+    opacity: 0;
+  }
+  87% {
+    content: url("./images/slideshow8.jpg");
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  100% {
+    content: url("./images/slideshow1.jpg");
+    opacity: 1;
+  }
+}
+
+@keyframes slideshow {
+  0% {
+    content: url("./images/slideshow1.jpg");
+    opacity: 1;
+  }
+  6% {
+    opacity: 0;
+  }
+  12% {
+    content: url("./images/slideshow2.jpg");
+    opacity: 1;
+  }
+  18% {
+    opacity: 0;
+  }
+  25% {
+    content: url("./images/slideshow3.webp");
+    opacity: 1;
+  }
+  31% {
+    opacity: 0;
+  }
+  37% {
+    content: url("./images/slideshow4.webp");
+    opacity: 1;
+  }
+  43% {
+    opacity: 0;
+  }
+  50% {
+    content: url("./images/slideshow5.webp");
+    opacity: 1;
+  }
+  56% {
+    opacity: 0;
+  }
+  62% {
+    content: url("./images/slideshow6.webp");
+    opacity: 1;
+  }
+  68% {
+    opacity: 0;
+  }
+  75% {
+    content: url("./images/slideshow7.jpg");
+    opacity: 1;
+  }
+  81% {
+    opacity: 0;
+  }
+  87% {
+    content: url("./images/slideshow8.jpg");
+    opacity: 1;
+  }
+  93% {
+    opacity: 0;
+  }
+  100% {
+    content: url("./images/slideshow1.jpg");
+    opacity: 1;
+  }
+}
+#slideshow {
+  -webkit-animation: slideshow 50s linear infinite;
+          animation: slideshow 50s linear infinite;
+}
+
 #slogan {
   width: 50%;
   position: relative;
   text-align: center;
   margin: auto 0px;
+  text-shadow: 2px 2px 2px var(--accent-color);
+  color: var(--button-color);
+  font-family: var(--font-logo);
 }
 
 #scroll {
@@ -113,6 +249,7 @@ header {
 
 #static ~ #scroll {
   background-color: transparent;
+  width: 50%;
   padding: 0%;
   margin-top: 80vh;
   display: flex;
@@ -155,6 +292,36 @@ footer > * {
   background-blend-mode: darken;
 }
 
+@media only screen and (max-width: 768px) {
+  #site {
+    flex-flow: column;
+  }
+  #navigation {
+    z-index: 3;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navigation > ul {
+    padding-top: 0px;
+    width: 100%;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  #navigation > ul li {
+    padding: 10px 5px;
+  }
+  #content {
+    width: 100%;
+  }
+  #static {
+    margin-top: -100px;
+    width: 100%;
+  }
+}
 /*variable use ->background-color: var(--main-color);*/
 :root {
   --main-color: #DEE3E9;
@@ -262,7 +429,7 @@ footer > * {
 }
 
 /*# sourceMappingURL=style.css.map */
-@media only screen and (max-width: 479px) {
+@media only screen and (max-width: 768px) {
   .product-row {
     margin: 10px;
   }
@@ -308,7 +475,7 @@ footer > * {
     opacity: 0.6;
   }
 }
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 769px) {
   html {
     box-sizing: border-box;
   }
@@ -369,5 +536,10 @@ footer > * {
   }
   .button:hover {
     opacity: 0.6;
+  }
+  .holder {
+    display: flex;
+    align-items: end;
+    justify-content: center;
   }
 }/*# sourceMappingURL=VR.css.map */
