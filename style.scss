@@ -177,25 +177,31 @@ header {
             margin-top: 80vh;
             display: flex;
             flex-flow: column;
-
         }
         .person {
             background-color: var(--main-color);
             padding: 5%;
             display: flex;
-            flex-flow: row;
+            flex-flow: column;
             justify-content: space-between;
             border-top: 2px solid var(--button-color);
             border-bottom: 2px solid var(--button-color);
             margin-bottom: 80vh;
         }
         .profile {
-            width: 50%;
+            display: flex;
+            flex-flow: column;
+            h3 {
+                align-self: center;
+            }
         }
         .profilepic {
             display: flex;
             flex-flow: column;
             align-items: center;
+            img {
+                width: 100%;
+            }
         }
 footer {
     background-color: var(--header-color);
