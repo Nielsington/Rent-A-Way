@@ -17,6 +17,12 @@ img{
     max-height: 100%;
 }
 
+li {
+    list-style-type: disc;
+    margin: 10px;
+    font-style: italic;
+}
+
 #page-title{
     margin-bottom: 1em;
 }
@@ -77,6 +83,13 @@ img{
 }
 
 /* Rent buttons */
+.btn-price-pos{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 12%;
+}
+
 .btn {
     height: 3em;
     width: 20%;
@@ -88,26 +101,18 @@ img{
     cursor: pointer;
     transition: 0.3s linear;
     background-color: #985D5E;
+    margin-top: 5%;
   }
 
   .btn:hover{
     opacity: .6;
   }
 
-.button-positioning{
-    display: flex;
-    justify-content: end;
-    margin: 2em;
-}
-
 /*Remove Image background */
 .bg-color {
-    background-color: #DEE3E9;  
+    background-color: #DEE3E9 ;  
 }
 
 .bg-blend{
     mix-blend-mode: multiply;
 }
-
-
-
