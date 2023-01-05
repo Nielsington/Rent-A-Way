@@ -29,18 +29,18 @@
   height: 100vh;
   margin: auto;
   width: 50%;
-  display: grid;
+  /* display: flex;
+  flex-direction: column; */
+  /* display: grid;
   justify-items: center;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr; */
   gap: 1.5rem;
-  /* background-color: #BBC3CE; */
   color: var(--text-color);
   border-radius: 0.5rem;
-  /* overflow-y: scroll; */
 }
 
 .contact-us {
-  width: 500px;
+  width: 90%;
 }
 
 .contact-us h2 {
@@ -117,7 +117,7 @@
 }
 
 .maps-container {
-  max-width: 960px;
+  max-width: 100%;
   height: 600px;
   /* margin: auto; */
   width: 50%;
@@ -166,8 +166,33 @@
   height: 96%;
   border-radius: 2rem;
   display: fixed;
-  margin-left: 20%;
-  margin-top: 83px;
+  /* margin-left: 10%; */
+  margin-top: 31.5%; /* was 83px */
 }
 
-/* @media only screen and (max-width:  ) */
+@media only screen and (max-width: 768px) {
+  #scroll {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact-container{
+    width: 500px;
+    height: 550px;
+  }
+
+  .map iframe {
+    margin-left: 18%;
+    height: 50%;
+    width: 400px;
+  }
+
+  /* .call-us {
+    height: 100%;
+  }
+
+  .find-us{
+    height: 100%;
+  } */
+
+}
