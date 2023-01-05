@@ -198,8 +198,6 @@ header {
   flex-flow: column;
   justify-content: space-between;
   border-top: 2px solid var(--button-color);
-  border-bottom: 2px solid var(--button-color);
-  margin-bottom: 80vh;
 }
 
 .profile {
