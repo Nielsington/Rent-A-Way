@@ -71,14 +71,22 @@ img{
     margin: auto;
 }
 
-.p-spacing {
-    margin-top: 3em;
-}
-
 .price-list > li {
     list-style-type: disc;
     margin: 10px;
     font-style: italic;
+}
+
+.p-spacing {
+    margin-top: 3em;
+}
+
+.y-spacing{
+    margin-top: 0.5em;
+}
+
+.bla {
+    margin-top: -1.5em;
 }
 
 /* Rent buttons */
@@ -115,6 +123,13 @@ img{
 .bg-blend{
     mix-blend-mode: multiply;
     width: 15vw;
+}
+
+/* Resize image */
+
+.resize{
+    height: 50%;
+    object-fit: contain;
 }
 
 /* Responsiveness */
