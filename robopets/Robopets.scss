@@ -2,14 +2,25 @@
     width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
-    // padding: 10px;
+    padding: 2%;
+    opacity: .6;
+    // border-radius: 2%;
 }
 
+img:hover {
+	opacity: 1;
+    width:100%;
+    border-radius: 50%;
+    border-bottom: 3px solid #985D5E;
+    border-top: 3px solid #BBC3CE;
+    box-shadow: 3px #985D5E;
+}
 #products{
     display: flex;
     margin-top: 20px;
     flex-direction: row;
 }
+
 #products > *{
     width: 25%;
 }
@@ -55,7 +66,17 @@ button{
 }
 .btn:hover{
     opacity: .6;
-  }
+}
+
+#M:hover{
+    font-weight: bold;
+}
+#Y:hover{
+    font-weight: bold;
+}
+#D:hover{
+    font-weight: bold;
+}
 
 @media only screen and (max-width: 768px) {
     #products{
