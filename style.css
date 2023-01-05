@@ -93,8 +93,7 @@ header {
 #static img {
   width: 50%;
   position: relative;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 #slogan {
@@ -153,4 +152,32 @@ footer > * {
   padding: 5px;
   text-shadow: 2px 2px 2px white;
   background-blend-mode: darken;
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media only screen and (max-width: 768px) {
+  #site {
+    flex-flow: column;
+  }
+  #navigation {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #navigation > ul {
+    padding-top: 0px;
+    width: 100%;
+    height: auto;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+  }
+  #navigation > ul li {
+    padding: 10px 5px;
+  }
+  #content {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
