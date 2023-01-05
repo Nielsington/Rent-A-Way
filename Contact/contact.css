@@ -19,11 +19,18 @@
   justify-content: center;
 } */
 
+/*Small screen!!!*/
+
+header h1{
+  width: 100%;
+  margin: auto;
+}
+
   #scroll {
     display: flex;
     flex-direction: column;
   }
-
+  
   .contact-us h2 {
     font-size: 25px;
     /* font-family: 'Arsenal', serif; */
@@ -143,6 +150,7 @@
 
 /* BIG SCREEN */
 @media only screen and (min-width: 768px) {
+
   #scroll {
     display: flex;
     flex-direction: row; /*in responsiveness: flex-direction: column */
@@ -164,7 +172,8 @@
   }
   
   .contact-us {
-    width: 90%;
+    width: 100%;
+    padding-right: 2%;
   }
   
   .contact-us h2 {
@@ -290,8 +299,8 @@
     height:100%;
     border-radius: 2rem;
     display: fixed;
-    /* margin-left: 10%; */
-    margin-top: 31.5%; /* was 83px */
+    margin-top: 22%;
+    /* margin-left: 10%;  */
   }
 }
 
