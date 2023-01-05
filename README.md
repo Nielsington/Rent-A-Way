@@ -7,10 +7,11 @@ The vision for our rental company named <b>Rent-A-Way</b> is that customers can 
 In the rental prices, there's already an insurance included which will protect you from any damage to the product caused by the system. If that is the case you will be able to return it and take home another one.
 
 <b>What did each person do?</b>
-
-Index page and general style scss page: Seppe
-Games page: Niels
-Robo-Pets page: Jitske
-Virtual Reality page: Céline
-Contact page: Lisa
-Faq-Rules page: Yousra
+<ul>
+  <li>Index page and Peripherals page: Seppe</li>
+  <li> Games page: Niels</li>
+  <li>Robo-Pets page: Jitske</li>
+  <li>Virtual Reality page: Céline</li>
+  <li>Contact page: Lisa</li>
+  <li>FAQ-Rules page: Yousra</li>
+  </ul>
