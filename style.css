@@ -93,7 +93,8 @@ header {
 #static img {
   width: 50%;
   position: relative;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 #slogan {
@@ -152,6 +153,4 @@ footer > * {
   padding: 5px;
   text-shadow: 2px 2px 2px white;
   background-blend-mode: darken;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
