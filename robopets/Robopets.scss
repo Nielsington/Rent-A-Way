@@ -58,5 +58,15 @@ button{
     opacity: .6;
   }
 
-
+@media only screen and (max-width: 768px) {
+    #products{
+        flex-direction: column;
+    }
+    #products >*{
+        width:100%;
+    }
+    .btn{
+        margin-bottom: 5%;
+    }
+}
 
