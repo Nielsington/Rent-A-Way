@@ -238,7 +238,11 @@ footer > * {
   }
   header {
     padding: 0px 5px;
-    flex-flow: row wrap;
+    flex-flow: column;
+    align-items: center;
+  }
+  header h2 {
+    display: none;
   }
   #navigation {
     z-index: 3;
