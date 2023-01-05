@@ -17,12 +17,6 @@ img{
     max-height: 100%;
 }
 
-li {
-    list-style-type: disc;
-    margin: 10px;
-    font-style: italic;
-}
-
 #page-title{
     margin-bottom: 1em;
 }
@@ -44,18 +38,17 @@ li {
     margin-bottom: 5em;
     border-top: 1px solid rgb(187, 187, 187);
     border-bottom: 1px solid rgb(187, 187, 187);
-    padding-top: 4em;
-    padding-bottom: 4em;
+    padding-top: 3vw;
+    padding-bottom: 3vw;
 
 }
 
 .brand {
     width: 40%;
-    height: 7vh;
     text-align:center;
 }
 
-/* Product container */
+/* Products */
 
 .wrap-single-product{
     display: flex;
@@ -80,6 +73,12 @@ li {
 
 .p-spacing {
     margin-top: 3em;
+}
+
+.price-list > li {
+    list-style-type: disc;
+    margin: 10px;
+    font-style: italic;
 }
 
 /* Rent buttons */
@@ -115,4 +114,42 @@ li {
 
 .bg-blend{
     mix-blend-mode: multiply;
+    width: 15vw;
 }
+
+/* Responsiveness */
+@media only screen and (max-width: 768px) {
+    header h1{
+        width: 100%;
+        margin: auto;
+    }
+    #navigation{
+        width: 100%;
+    }
+
+    #brand-list{
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .bg-blend {
+        width: 30vw;
+        padding: 1em;
+    }
+
+    .wrap-single-product {
+        flex-direction: column;
+    }
+
+    .product-container{
+        width: 100%;
+    }
+
+    .product-container img{
+        width: 40%;
+    }
+
+    .product-description{
+        width: 100%;
+    }
+  }
