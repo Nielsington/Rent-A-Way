@@ -1,28 +1,23 @@
                        //  Javascript for the message on the terms of use's button
 
-// Get a reference to the accept and decline buttons
+
 const acceptButton = document.getElementById('accept-button');
 const declineButton = document.getElementById('decline-button');
 
-// Get a reference to the message element
 const message = document.getElementById('message');
 
-function init() {
-  // Add event listeners to the buttons
+function init() {  
   acceptButton.addEventListener('click', function() {
-    // This function will be executed when the Accept button is clicked
-    message.innerHTML = 'Thank you for accepting';
+    message.innerHTML = 'Thank you en enjoy !';
     message.style.padding = '1.5rem';
   });
 
   declineButton.addEventListener('click', function() {
-    // This function will be executed when the Decline button is clicked
-    message.innerHTML = "That's Sad";
+    message.innerHTML = "That's sad";
     message.style.padding = '1.5rem';
   });
 }
 
-// Call the init function when the DOM is ready
 document.addEventListener('DOMContentLoaded', init);
 
 
@@ -49,7 +44,7 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
 
   buttons.forEach((button, i) => {
     button.addEventListener("click", () => {
-      // un-select all the items
+  
       items.forEach((item) =>
         item.classList.remove("carousel__item--selected")
       );
@@ -62,7 +57,6 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
     });
   });
 
-  // Select the first item on page load
   items[0].classList.add("carousel__item--selected");
   buttons[0].classList.add("carousel__button--selected");
 });
