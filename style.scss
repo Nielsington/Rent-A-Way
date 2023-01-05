@@ -150,10 +150,6 @@ header {
                     content:url("./images/slideshow1.jpg");
                     opacity: 1;
                 }
-                6% {
-                    opacity: 0;
-                }
-
             }
             #slideshow {
                 animation: slideshow 50s linear infinite;
