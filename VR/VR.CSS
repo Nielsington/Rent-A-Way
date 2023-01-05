@@ -46,12 +46,12 @@ header {
   background-color: var(--header-color);
   margin: auto 0px;
   display: flex;
+  padding: 0px 50px;
   justify-content: space-between;
 }
 
 .logo, .logo > * {
   min-width: 15%;
-  text-align: center;
   margin: auto 0px;
   text-shadow: 2px 2px 2px var(--accent-color);
   color: var(--button-color);
@@ -263,8 +263,6 @@ header {
   flex-flow: column;
   justify-content: space-between;
   border-top: 2px solid var(--button-color);
-  border-bottom: 2px solid var(--button-color);
-  margin-bottom: 80vh;
 }
 
 .profile {
@@ -302,6 +300,14 @@ footer > * {
 @media only screen and (max-width: 768px) {
   #site {
     flex-flow: column;
+  }
+  header {
+    padding: 0px 5px;
+    flex-flow: column;
+    align-items: center;
+  }
+  header h2 {
+    display: none;
   }
   #navigation {
     z-index: 3;
@@ -517,7 +523,7 @@ footer > * {
   .product-item p {
     padding-top: 5px;
   }
-  h1 {
+  .head {
     margin-top: 5px;
   }
   .price {
