@@ -21,11 +21,6 @@
 
 /*Small screen!!!*/
 
-header h1{
-  width: 100%;
-  margin: auto;
-}
-
   #scroll {
     display: flex;
     flex-direction: column;
