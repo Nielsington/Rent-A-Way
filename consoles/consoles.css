@@ -1,11 +1,11 @@
 
 h1, h2{
     font-family: arsenal;
-    text-align: center;
 }
 
 h2 {
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 p {
@@ -19,6 +19,7 @@ img{
 
 #page-title{
     margin-bottom: 1em;
+    text-align: center;
 }
 
 /* Intro */
