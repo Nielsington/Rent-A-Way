@@ -16,4 +16,4 @@ In the rental prices, there's already an insurance included which will protect y
   <li>FAQ-Rules page: Yousra</li>
   </ul>
 
-URL: http://127.0.0.1:5500/index.html
+URL:(https://boisterous-melba-14db82.netlify.app
