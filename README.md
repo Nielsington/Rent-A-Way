@@ -6,6 +6,8 @@ We started off with a brainstorming session in which we came up with the idea of
 The vision for our rental company named <b>Rent-A-Way</b> is that customers can look both in the shop and online for a product they would like to rent. When pressing the 'rent' button, the item will be reserved at our shop. Clients can rent monthly or yearly after paying a deposit which will be returned when returning the product without any damage.
 In the rental prices, there's already an insurance included which will protect you from any damage done to the product (not caused by you). 
 
+Take a look: https://nielsington.github.io/Rent-A-Way/
+
 <b>Who did what?</b>
 <ul>
   <li>Home and Peripherals: Seppe</li>
@@ -15,5 +17,3 @@ In the rental prices, there's already an insurance included which will protect y
   <li>Contact: Lisa</li>
   <li>FAQ-Rules: Yousra</li>
 </ul>
-
-URL:
